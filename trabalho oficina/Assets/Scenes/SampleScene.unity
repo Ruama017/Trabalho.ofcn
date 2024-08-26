@@ -1401,7 +1401,7 @@ GameObject:
   - component: {fileID: 1099094993}
   - component: {fileID: 1099094992}
   m_Layer: 0
-  m_Name: Idle (32x32)_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,8 +1468,8 @@ Transform:
   m_GameObject: {fileID: 1099094991}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2541046, y: -0.28683746, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.2541046, y: -0.52, z: 0}
+  m_LocalScale: {x: 2.4770072, y: 3.0333693, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
