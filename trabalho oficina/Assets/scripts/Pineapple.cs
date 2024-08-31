@@ -30,7 +30,7 @@ public class Pineapple : MonoBehaviour
             collected.SetActive(true);
 
             GameController.instance.totalScore += Score;
-
+            GameController.instance.UpdateScoreText();
             Destroy(gameObject, 0.25f);
         } 
     }

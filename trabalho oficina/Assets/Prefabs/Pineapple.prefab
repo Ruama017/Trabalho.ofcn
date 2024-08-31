@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c131bd0a98e021a41b0c0bdc55d7f0b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  collected: {fileID: 8892040015956618409, guid: 31fbabb6db9ff744d9a1f925edf48dee, type: 3}
   Score: 10
 --- !u!1001 &206265378881358109
 PrefabInstance:
