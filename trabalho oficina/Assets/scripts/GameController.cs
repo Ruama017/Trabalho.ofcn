@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,9 +8,9 @@ public class GameController : MonoBehaviour
 {
 
     public int totalScore;
-    public Text scoreText;
+    public TMP_Text scoreText;
 
-    public int GameController instance;
+    public static GameController instance;
 
     // Start is called before the first frame update
     void Start()

@@ -23,8 +23,10 @@ public class Pineapple : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D collider){
-        if(collider.gameObject.tag =="Player"){
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.gameObject.tag =="Player")
+        {
             sr.enabled = false;
             circle.enabled = false;
             collected.SetActive(true);
