@@ -10,6 +10,8 @@ public class GameController : MonoBehaviour
     public int totalScore;
     public TMP_Text scoreText;
 
+    public GameObject gameOver;
+
     public static GameController instance;
 
     // Start is called before the first frame update
@@ -23,9 +25,10 @@ public class GameController : MonoBehaviour
         scoreText.text = totalScore.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShowGameOver()
     {
-        
+        gameOver.SetActive(true);
     }
+
+    
 }
