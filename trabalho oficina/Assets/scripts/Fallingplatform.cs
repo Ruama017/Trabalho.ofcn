@@ -21,7 +21,19 @@ public class Fallingplatform : MonoBehaviour
         {
             Invoke("Falling" , fallingTime);
         }
+
+      
     }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+            if (collider.gameObject.layer == 7)
+            {
+                Destroy(gameObject);
+            }
+        
+    }
+
 
     void Falling(){
         target.enabled = false;
