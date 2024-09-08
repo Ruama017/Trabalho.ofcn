@@ -82,7 +82,7 @@ public class Player : MonoBehaviour
             isJumping = false;
         }
 
-        if (collision.gameObject.tag == "Spike")
+        if (collision.gameObject.tag == "spike")
         {
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
