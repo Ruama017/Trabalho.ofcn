@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl_2.unity
     guid: 994c37b10c1527242a7ba9ee4bf08cc2
+  - enabled: 1
+    path: Assets/Scenes/trabalho2.unity
+    guid: bd98f7d85a7755a46afe7f578f0ed5ab
   m_configObjects: {}
